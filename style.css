@@ -1,0 +1,81 @@
+.backdrop {
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.navbar-inverse,
+.col_btn {
+    background-color: #CC5500;
+    border-color: #CC5500;
+}
+
+.col_btn {
+    color: white;
+}
+
+.col_text {
+    color: #964000;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #964000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFF90;
+}
+
+.contentBox {
+    background-color: wheat;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 75%;
+    opacity: 0.85;
+    padding: 0 25px 25px 25px;
+    margin-top: 45px;
+}
+
+.contentBox:hover {
+    opacity: 1;
+}
+
+.logo {
+    width: 200px;
+    height: 107px;
+}
+
+hr {
+    border-top: 1px solid #CC5500;
+}
+
+.dp {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #CC5500;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 43%;
+        display: block;
+        width: 160px;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        
+    }
+}
